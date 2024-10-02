@@ -41,19 +41,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0A5BD7442CACE33F008E6001 /* modular-sample */ = {
+		0A5BD7442CACE33F008E6001 /* Modular-sample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "modular-sample";
+			path = "Modular-sample";
 			sourceTree = "<group>";
 		};
-		0A5BD7552CACE341008E6001 /* modular-sampleTests */ = {
+		0A5BD7552CACE341008E6001 /* Modular-sampleTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "modular-sampleTests";
+			path = "Modular-sampleTests";
 			sourceTree = "<group>";
 		};
-		0A5BD75F2CACE341008E6001 /* modular-sampleUITests */ = {
+		0A5BD75F2CACE341008E6001 /* Modular-sampleUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "modular-sampleUITests";
+			path = "Modular-sampleUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,9 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				0A5BD77B2CACEB02008E6001 /* Packages */,
-				0A5BD7442CACE33F008E6001 /* modular-sample */,
-				0A5BD7552CACE341008E6001 /* modular-sampleTests */,
-				0A5BD75F2CACE341008E6001 /* modular-sampleUITests */,
+				0A5BD7442CACE33F008E6001 /* Modular-sample */,
+				0A5BD7552CACE341008E6001 /* Modular-sampleTests */,
+				0A5BD75F2CACE341008E6001 /* Modular-sampleUITests */,
 				0A5BD7702CACE6F7008E6001 /* Frameworks */,
 				0A5BD7432CACE33F008E6001 /* Products */,
 			);
@@ -143,7 +143,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				0A5BD7442CACE33F008E6001 /* modular-sample */,
+				0A5BD7442CACE33F008E6001 /* Modular-sample */,
 			);
 			name = "Modular-sample";
 			packageProductDependencies = (
@@ -167,7 +167,7 @@
 				0A5BD7542CACE341008E6001 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				0A5BD7552CACE341008E6001 /* modular-sampleTests */,
+				0A5BD7552CACE341008E6001 /* Modular-sampleTests */,
 			);
 			name = "Modular-sampleTests";
 			packageProductDependencies = (
@@ -190,7 +190,7 @@
 				0A5BD75E2CACE341008E6001 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				0A5BD75F2CACE341008E6001 /* modular-sampleUITests */,
+				0A5BD75F2CACE341008E6001 /* Modular-sampleUITests */,
 			);
 			name = "Modular-sampleUITests";
 			packageProductDependencies = (

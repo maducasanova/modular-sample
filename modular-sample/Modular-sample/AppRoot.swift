@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
-//  modular-sample
+//  AppRoot.swift
+//  Modular-sample
 //
 //  Created by Maria Eduarda on 01/10/24.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct AppRoot: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    AppRoot()
 }
