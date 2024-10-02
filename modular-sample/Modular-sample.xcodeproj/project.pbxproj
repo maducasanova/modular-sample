@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0A5BD7722CACE6F7008E6001 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 0A5BD7712CACE6F7008E6001 /* Core */; };
+		8240C98A2CACF0E2000CB9B5 /* Analytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8240C9892CACF0E2000CB9B5 /* Analytics */; };
+		8240C98C2CACF0E5000CB9B5 /* Authentication in Frameworks */ = {isa = PBXBuildFile; productRef = 8240C98B2CACF0E5000CB9B5 /* Authentication */; };
+		8240C98E2CACF0E8000CB9B5 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 8240C98D2CACF0E8000CB9B5 /* DesignSystem */; };
+		8240C9902CACF0EE000CB9B5 /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = 8240C98F2CACF0EE000CB9B5 /* Home */; };
+		8240C9922CACF0F1000CB9B5 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 8240C9912CACF0F1000CB9B5 /* Networking */; };
+		8240C9942CACF0F5000CB9B5 /* Notification in Frameworks */ = {isa = PBXBuildFile; productRef = 8240C9932CACF0F5000CB9B5 /* Notification */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +69,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8240C9922CACF0F1000CB9B5 /* Networking in Frameworks */,
 				0A5BD7722CACE6F7008E6001 /* Core in Frameworks */,
+				8240C98A2CACF0E2000CB9B5 /* Analytics in Frameworks */,
+				8240C98C2CACF0E5000CB9B5 /* Authentication in Frameworks */,
+				8240C9942CACF0F5000CB9B5 /* Notification in Frameworks */,
+				8240C9902CACF0EE000CB9B5 /* Home in Frameworks */,
+				8240C98E2CACF0E8000CB9B5 /* DesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +160,12 @@
 			name = "Modular-sample";
 			packageProductDependencies = (
 				0A5BD7712CACE6F7008E6001 /* Core */,
+				8240C9892CACF0E2000CB9B5 /* Analytics */,
+				8240C98B2CACF0E5000CB9B5 /* Authentication */,
+				8240C98D2CACF0E8000CB9B5 /* DesignSystem */,
+				8240C98F2CACF0EE000CB9B5 /* Home */,
+				8240C9912CACF0F1000CB9B5 /* Networking */,
+				8240C9932CACF0F5000CB9B5 /* Notification */,
 			);
 			productName = "modular-sample";
 			productReference = 0A5BD7422CACE33F008E6001 /* Modular-sample.app */;
@@ -611,6 +629,30 @@
 		0A5BD7712CACE6F7008E6001 /* Core */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Core;
+		};
+		8240C9892CACF0E2000CB9B5 /* Analytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Analytics;
+		};
+		8240C98B2CACF0E5000CB9B5 /* Authentication */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Authentication;
+		};
+		8240C98D2CACF0E8000CB9B5 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+		8240C98F2CACF0EE000CB9B5 /* Home */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Home;
+		};
+		8240C9912CACF0F1000CB9B5 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+		8240C9932CACF0F5000CB9B5 /* Notification */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Notification;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

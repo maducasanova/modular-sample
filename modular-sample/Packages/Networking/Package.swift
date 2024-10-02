@@ -12,9 +12,16 @@ let package = Package(
             name: "Networking",
             targets: ["Networking"]),
     ],
+    dependencies: [
+        .package(name: "Core", path: "../Core"),
+    ],
     targets: [
         .target(
-            name: "Networking"),
+            name: "Networking",
+            dependencies: [
+                .product(name: "Core", package: "Core"),
+            ]
+        ),
         .testTarget(
             name: "NetworkingTests",
             dependencies: ["Networking"]),
