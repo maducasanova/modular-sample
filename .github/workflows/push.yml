@@ -5,6 +5,6 @@ jobs:
     name: Lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@V3
+      - uses: actions/checkout@v4
       - name: Github action for SwiftLint
         uses: norio-nomura/action-swiftlin@3.2.1
