@@ -32,7 +32,6 @@ struct SampleAppURLBuilder: URLBuilder {
     }
 }
 
-
 struct SampleAppAuthURLBuilder: URLBuilder {
     let path: String
 

@@ -10,13 +10,13 @@ let package = Package(
     products: [
         .library(
             name: "Core",
-            targets: ["Core"]),
+            targets: ["Core"])
     ],
     targets: [
         .target(
             name: "Core"),
         .testTarget(
             name: "CoreTests",
-            dependencies: ["Core"]),
+            dependencies: ["Core"])
     ]
 )

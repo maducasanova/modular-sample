@@ -10,7 +10,6 @@ import Core
 
 public class SampleAppURLSessionDelegate: NSObject, URLSessionDataDelegate { }
 
-
 public class SampleAppURLSession {
     public static let shared: URLSession = {
         let instance = URLSession(

@@ -1,13 +1,13 @@
 //
-//  modular_sampleUITests.swift
-//  modular-sampleUITests
+//  ModularSampleAppUITests.swift
+//  ModularSampleAppUITests
 //
 //  Created by Maria Eduarda on 01/10/24.
 //
 
 import XCTest
 
-final class modular_sampleUITests: XCTestCase {
+final class ModularSampleAppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

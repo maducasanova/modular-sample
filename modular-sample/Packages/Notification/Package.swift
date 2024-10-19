@@ -10,13 +10,13 @@ let package = Package(
     products: [
         .library(
             name: "Notification",
-            targets: ["Notification"]),
+            targets: ["Notification"])
     ],
     targets: [
         .target(
             name: "Notification"),
         .testTarget(
             name: "NotificationTests",
-            dependencies: ["Notification"]),
+            dependencies: ["Notification"])
     ]
 )

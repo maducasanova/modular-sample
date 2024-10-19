@@ -33,9 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A5BD7422CACE33F008E6001 /* Modular-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modular-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A5BD7522CACE341008E6001 /* Modular-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Modular-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A5BD75C2CACE341008E6001 /* Modular-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Modular-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5BD7422CACE33F008E6001 /* ModularSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5BD7522CACE341008E6001 /* ModularSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5BD75C2CACE341008E6001 /* ModularSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5BD7742CACEB02008E6001 /* Analytics */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Analytics; sourceTree = "<group>"; };
 		0A5BD7752CACEB02008E6001 /* Authentication */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Authentication; sourceTree = "<group>"; };
 		0A5BD7762CACEB02008E6001 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Core; sourceTree = "<group>"; };
@@ -46,19 +46,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0A5BD7442CACE33F008E6001 /* Modular-sample */ = {
+		0A5BD7442CACE33F008E6001 /* ModularSampleApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Modular-sample";
+			path = ModularSampleApp;
 			sourceTree = "<group>";
 		};
-		0A5BD7552CACE341008E6001 /* Modular-sampleTests */ = {
+		0A5BD7552CACE341008E6001 /* ModularSampleAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Modular-sampleTests";
+			path = ModularSampleAppTests;
 			sourceTree = "<group>";
 		};
-		0A5BD75F2CACE341008E6001 /* Modular-sampleUITests */ = {
+		0A5BD75F2CACE341008E6001 /* ModularSampleAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Modular-sampleUITests";
+			path = ModularSampleAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -98,9 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				0A5BD77B2CACEB02008E6001 /* Packages */,
-				0A5BD7442CACE33F008E6001 /* Modular-sample */,
-				0A5BD7552CACE341008E6001 /* Modular-sampleTests */,
-				0A5BD75F2CACE341008E6001 /* Modular-sampleUITests */,
+				0A5BD7442CACE33F008E6001 /* ModularSampleApp */,
+				0A5BD7552CACE341008E6001 /* ModularSampleAppTests */,
+				0A5BD75F2CACE341008E6001 /* ModularSampleAppUITests */,
 				0A5BD7702CACE6F7008E6001 /* Frameworks */,
 				0A5BD7432CACE33F008E6001 /* Products */,
 			);
@@ -109,9 +109,9 @@
 		0A5BD7432CACE33F008E6001 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A5BD7422CACE33F008E6001 /* Modular-sample.app */,
-				0A5BD7522CACE341008E6001 /* Modular-sampleTests.xctest */,
-				0A5BD75C2CACE341008E6001 /* Modular-sampleUITests.xctest */,
+				0A5BD7422CACE33F008E6001 /* ModularSampleApp.app */,
+				0A5BD7522CACE341008E6001 /* ModularSampleAppTests.xctest */,
+				0A5BD75C2CACE341008E6001 /* ModularSampleAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,22 +140,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A5BD7412CACE33F008E6001 /* Modular-sample */ = {
+		0A5BD7412CACE33F008E6001 /* ModularSampleApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A5BD7662CACE341008E6001 /* Build configuration list for PBXNativeTarget "Modular-sample" */;
+			buildConfigurationList = 0A5BD7662CACE341008E6001 /* Build configuration list for PBXNativeTarget "ModularSampleApp" */;
 			buildPhases = (
 				0A5BD73E2CACE33F008E6001 /* Sources */,
 				0A5BD73F2CACE33F008E6001 /* Frameworks */,
 				0A5BD7402CACE33F008E6001 /* Resources */,
+				82B1ACD22CC3256D0080602D /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				0A5BD7442CACE33F008E6001 /* Modular-sample */,
+				0A5BD7442CACE33F008E6001 /* ModularSampleApp */,
 			);
-			name = "Modular-sample";
+			name = ModularSampleApp;
 			packageProductDependencies = (
 				0A5BD7712CACE6F7008E6001 /* Core */,
 				8240C9892CACF0E2000CB9B5 /* Analytics */,
@@ -165,12 +166,12 @@
 				8240C9932CACF0F5000CB9B5 /* Notification */,
 			);
 			productName = "modular-sample";
-			productReference = 0A5BD7422CACE33F008E6001 /* Modular-sample.app */;
+			productReference = 0A5BD7422CACE33F008E6001 /* ModularSampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0A5BD7512CACE341008E6001 /* Modular-sampleTests */ = {
+		0A5BD7512CACE341008E6001 /* ModularSampleAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A5BD7692CACE341008E6001 /* Build configuration list for PBXNativeTarget "Modular-sampleTests" */;
+			buildConfigurationList = 0A5BD7692CACE341008E6001 /* Build configuration list for PBXNativeTarget "ModularSampleAppTests" */;
 			buildPhases = (
 				0A5BD74E2CACE341008E6001 /* Sources */,
 				0A5BD74F2CACE341008E6001 /* Frameworks */,
@@ -182,18 +183,18 @@
 				0A5BD7542CACE341008E6001 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				0A5BD7552CACE341008E6001 /* Modular-sampleTests */,
+				0A5BD7552CACE341008E6001 /* ModularSampleAppTests */,
 			);
-			name = "Modular-sampleTests";
+			name = ModularSampleAppTests;
 			packageProductDependencies = (
 			);
 			productName = "modular-sampleTests";
-			productReference = 0A5BD7522CACE341008E6001 /* Modular-sampleTests.xctest */;
+			productReference = 0A5BD7522CACE341008E6001 /* ModularSampleAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0A5BD75B2CACE341008E6001 /* Modular-sampleUITests */ = {
+		0A5BD75B2CACE341008E6001 /* ModularSampleAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A5BD76C2CACE341008E6001 /* Build configuration list for PBXNativeTarget "Modular-sampleUITests" */;
+			buildConfigurationList = 0A5BD76C2CACE341008E6001 /* Build configuration list for PBXNativeTarget "ModularSampleAppUITests" */;
 			buildPhases = (
 				0A5BD7582CACE341008E6001 /* Sources */,
 				0A5BD7592CACE341008E6001 /* Frameworks */,
@@ -205,13 +206,13 @@
 				0A5BD75E2CACE341008E6001 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				0A5BD75F2CACE341008E6001 /* Modular-sampleUITests */,
+				0A5BD75F2CACE341008E6001 /* ModularSampleAppUITests */,
 			);
-			name = "Modular-sampleUITests";
+			name = ModularSampleAppUITests;
 			packageProductDependencies = (
 			);
 			productName = "modular-sampleUITests";
-			productReference = 0A5BD75C2CACE341008E6001 /* Modular-sampleUITests.xctest */;
+			productReference = 0A5BD75C2CACE341008E6001 /* ModularSampleAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0A5BD73D2CACE33F008E6001 /* Build configuration list for PBXProject "Modular-sample" */;
+			buildConfigurationList = 0A5BD73D2CACE33F008E6001 /* Build configuration list for PBXProject "ModularSampleApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -251,9 +252,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A5BD7412CACE33F008E6001 /* Modular-sample */,
-				0A5BD7512CACE341008E6001 /* Modular-sampleTests */,
-				0A5BD75B2CACE341008E6001 /* Modular-sampleUITests */,
+				0A5BD7412CACE33F008E6001 /* ModularSampleApp */,
+				0A5BD7512CACE341008E6001 /* ModularSampleAppTests */,
+				0A5BD75B2CACE341008E6001 /* ModularSampleAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,6 +283,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82B1ACD22CC3256D0080602D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n  export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\nif which swiftlint > /dev/null; then\n swiftlint\nelse\n echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A5BD73E2CACE33F008E6001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -309,12 +331,12 @@
 /* Begin PBXTargetDependency section */
 		0A5BD7542CACE341008E6001 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A5BD7412CACE33F008E6001 /* Modular-sample */;
+			target = 0A5BD7412CACE33F008E6001 /* ModularSampleApp */;
 			targetProxy = 0A5BD7532CACE341008E6001 /* PBXContainerItemProxy */;
 		};
 		0A5BD75E2CACE341008E6001 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A5BD7412CACE33F008E6001 /* Modular-sample */;
+			target = 0A5BD7412CACE33F008E6001 /* ModularSampleApp */;
 			targetProxy = 0A5BD75D2CACE341008E6001 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -357,7 +379,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -420,7 +442,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -446,7 +468,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"modular-sample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ModularSampleApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 522PR745R9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -454,8 +476,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -481,7 +503,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"modular-sample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ModularSampleApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 522PR745R9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -489,8 +511,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -524,7 +546,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modular-sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Modular-sample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModularSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ModularSampleApp";
 			};
 			name = Debug;
 		};
@@ -543,7 +565,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modular-sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Modular-sample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModularSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ModularSampleApp";
 			};
 			name = Release;
 		};
@@ -584,7 +606,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A5BD73D2CACE33F008E6001 /* Build configuration list for PBXProject "Modular-sample" */ = {
+		0A5BD73D2CACE33F008E6001 /* Build configuration list for PBXProject "ModularSampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A5BD7642CACE341008E6001 /* Debug */,
@@ -593,7 +615,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A5BD7662CACE341008E6001 /* Build configuration list for PBXNativeTarget "Modular-sample" */ = {
+		0A5BD7662CACE341008E6001 /* Build configuration list for PBXNativeTarget "ModularSampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A5BD7672CACE341008E6001 /* Debug */,
@@ -602,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A5BD7692CACE341008E6001 /* Build configuration list for PBXNativeTarget "Modular-sampleTests" */ = {
+		0A5BD7692CACE341008E6001 /* Build configuration list for PBXNativeTarget "ModularSampleAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A5BD76A2CACE341008E6001 /* Debug */,
@@ -611,7 +633,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A5BD76C2CACE341008E6001 /* Build configuration list for PBXNativeTarget "Modular-sampleUITests" */ = {
+		0A5BD76C2CACE341008E6001 /* Build configuration list for PBXNativeTarget "ModularSampleAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A5BD76D2CACE341008E6001 /* Debug */,

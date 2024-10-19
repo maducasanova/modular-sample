@@ -10,20 +10,20 @@ let package = Package(
     products: [
         .library(
             name: "Networking",
-            targets: ["Networking"]),
-    ],
+            targets: ["Networking"]
+    )],
     dependencies: [
-        .package(name: "Core", path: "../Core"),
+        .package(name: "Core", path: "../Core")
     ],
     targets: [
         .target(
             name: "Networking",
             dependencies: [
-                .product(name: "Core", package: "Core"),
+                .product(name: "Core", package: "Core")
             ]
         ),
         .testTarget(
             name: "NetworkingTests",
-            dependencies: ["Networking"]),
+            dependencies: ["Networking"])
     ]
 )

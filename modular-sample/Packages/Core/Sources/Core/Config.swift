@@ -61,7 +61,6 @@ public enum BuildEnvironment: String, LosslessStringConvertible, CaseIterable {
     case uat
     case production
 
-
     public init?(_ description: String) {
         self.init(rawValue: description.lowercased())
     }
