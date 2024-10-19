@@ -103,7 +103,7 @@ extension HeaderPolicy where Self == CombinedHeaderPolicy {
         CombinedHeaderPolicy(policies: policies)
     }
 
-    static var bestEgg: Self {
+    static var sampleApp: Self {
         combined(.contentType(.json), .primary, .auth)
     }
 
