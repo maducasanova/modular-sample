@@ -12,9 +12,9 @@ analyzer_rules: # Rules run by `swiftlint analyze`
 
 included:
   - Packages
-  - Modular-sample
-  - Modular-sampleTests
-  - Modular-sampleUITests
+  - ModularSampleApp
+  - ModularSampleAppTests
+  - ModularSampleAppUITests
 excluded:
   - Build
   - "*.generated.swift"

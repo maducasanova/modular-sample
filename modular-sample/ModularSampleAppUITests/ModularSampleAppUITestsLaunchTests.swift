@@ -1,13 +1,13 @@
 //
-//  modular_sampleUITestsLaunchTests.swift
-//  modular-sampleUITests
+//  ModularSampleAppUITestsLaunchTests.swift
+//  ModularSampleAppUITestsLaunchTests
 //
 //  Created by Maria Eduarda on 01/10/24.
 //
 
 import XCTest
 
-final class modular_sampleUITestsLaunchTests: XCTestCase {
+final class ModularSampleAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
